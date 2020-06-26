@@ -1,1 +1,1 @@
-foo.js
+export type Foo = { x: number; }

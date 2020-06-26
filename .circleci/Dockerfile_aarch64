@@ -1,0 +1,5 @@
+FROM arm64v8/ubuntu:xenial
+
+ADD build_flow_aarch64.sh .
+
+ENTRYPOINT ["/bin/bash", "build_flow_aarch64.sh"]
